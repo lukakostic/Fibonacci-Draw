@@ -107,6 +107,7 @@ namespace Fibonacci
             pictureBox1.Image = null;
 
             if ((totalWidth + totalHeight) <= 0) return;
+            if (checkBox1.Checked == false && checkBox2.Checked == false && checkBox3.Checked == false) return;
 
             if (totalHeight > totalWidth) //Square the canvas
             {
